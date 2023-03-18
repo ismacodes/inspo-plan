@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
     headerContainer: {
         justifyContent: "center", 
         alignItems: "center",
+        marginBottom: height * .02,
     },
     headerText: {
         fontSize: height * .028,

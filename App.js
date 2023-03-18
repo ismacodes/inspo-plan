@@ -9,9 +9,11 @@ import { SafeAreaView } from "react-native";
 import { EvaIconsPack } from "@ui-kitten/eva-icons";
 import AppNavigator from "./components/AppNavigator";
 import Header from "./components/Header";
+import { StatusBar } from 'expo-status-bar';
 
 export default () => (
     <>
+        <StatusBar />
         <ApplicationProvider {...eva} theme={eva.light}>
             <Layout style={{ flex: 1 }}>
                 <SafeAreaView style={{ flex: 1, position: "relative" }}>
